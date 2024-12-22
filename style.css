@@ -1,0 +1,91 @@
+body {
+    width: 1050px;
+    margin: 50px auto;
+    background-image: url(./sfondo2.png);  
+}
+
+/*BIBLIOGRAFIA*/
+
+div.bibl{
+   width: 600px;
+   min-height: 100px;
+}
+
+div.bibl h4{
+   font-family: consolas;
+   border-bottom: 1px solid black;
+   font-size: 20px;
+   color: blue;
+}
+
+div.bibl ul{
+    list-style-type: none;
+    border: 1px dotted red;
+    background: #DAC9CD;
+    font-family: Times;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+/* PUBBLICAZIONE */
+
+div.publs{
+   width: 600px;
+   min-height: 100px; 
+}
+
+div.publs h4{
+   font-family: consolas;
+   border-bottom: 1px solid black;
+   font-size: 20px;
+   color: blue;    
+}
+
+div.publs ul{
+    list-style-type: none;
+    border: 1px dotted red;
+    background: #DAC9CD;
+    font-family: Times;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+ /* FRONT E PARAGRAFO */
+ 
+div.front{
+   display:none;
+}
+
+.epigraph {
+    font-size: 18px;
+    font-family:"Times New Roman",Georgia,Serif;
+}
+
+.head {
+    font-size: 18px;
+    font-family:"Times New Roman",Georgia,Serif;
+}
+
+.p {
+    text-indent: 30px;
+    font-family: Times;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.prot {
+    color: red;    
+}
+
+.titolo {
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+}
+
+div.titolo h2 {
+    font-size: 35px;
+    color: red;   
+}
